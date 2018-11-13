@@ -25,7 +25,7 @@ while(True):
         cv2.rectangle(img,(x,y),(x+w,y+h),(125,255,0),2)
  
     #Mostramos la imagen
-    cv2.imshow('img',img)
+    cv2.imshow('img1',img)
      
     #con la tecla 'q' salimos del programa
     if cv2.waitKey(1) & 0xFF == ord('q'):
